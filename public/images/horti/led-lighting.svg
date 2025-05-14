@@ -1,0 +1,34 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9C27B0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#BA68C8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- LED Panel -->
+  <rect x="40" y="40" width="120" height="20" rx="5" fill="url(#grad1)" />
+  <!-- LED Lights -->
+  <g fill="#E1BEE7">
+    <circle cx="60" cy="50" r="5" />
+    <circle cx="80" cy="50" r="5" />
+    <circle cx="100" cy="50" r="5" />
+    <circle cx="120" cy="50" r="5" />
+    <circle cx="140" cy="50" r="5" />
+  </g>
+  <!-- Light Beams -->
+  <g opacity="0.6">
+    <path d="M60,55 L50,140" stroke="#E1BEE7" stroke-width="2" />
+    <path d="M80,55 L70,140" stroke="#E1BEE7" stroke-width="2" />
+    <path d="M100,55 L100,140" stroke="#E1BEE7" stroke-width="2" />
+    <path d="M120,55 L130,140" stroke="#E1BEE7" stroke-width="2" />
+    <path d="M140,55 L150,140" stroke="#E1BEE7" stroke-width="2" />
+  </g>
+  <!-- Plant Silhouette -->
+  <path d="M90,140 Q100,120 110,140 L100,140 Z" fill="#4CAF50" />
+  <path d="M95,130 Q100,110 105,130" stroke="#4CAF50" stroke-width="2" fill="none" />
+  <!-- Control Panel -->
+  <rect x="150" y="80" width="30" height="40" rx="5" fill="#7B1FA2" />
+  <circle cx="165" cy="90" r="3" fill="#E1BEE7" />
+  <rect x="160" y="100" width="10" height="2" fill="#E1BEE7" />
+  <rect x="160" y="105" width="10" height="2" fill="#E1BEE7" />
+</svg>

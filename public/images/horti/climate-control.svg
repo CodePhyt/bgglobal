@@ -1,0 +1,44 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ACC1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#26C6DA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Control Unit -->
+  <rect x="60" y="60" width="80" height="80" rx="10" fill="url(#grad1)" />
+  <!-- Display Screen -->
+  <rect x="70" y="70" width="60" height="30" rx="5" fill="#E0F7FA" />
+  <!-- Temperature Reading -->
+  <text x="75" y="90" fill="#00ACC1" font-family="Arial" font-size="12">23°C</text>
+  <!-- Control Buttons -->
+  <g fill="#B2EBF2">
+    <circle cx="80" cy="115" r="5" />
+    <circle cx="100" cy="115" r="5" />
+    <circle cx="120" cy="115" r="5" />
+  </g>
+  <!-- Air Flow Indicators -->
+  <g fill="none" stroke="#E0F7FA" stroke-width="2">
+    <path d="M30,80 C50,80 50,100 30,100" />
+    <path d="M170,80 C150,80 150,100 170,100" />
+    <path d="M30,120 C50,120 50,140 30,140" />
+    <path d="M170,120 C150,120 150,140 170,140" />
+  </g>
+  <!-- Temperature Indicators -->
+  <g fill="#FF5252">
+    <circle cx="40" cy="40" r="5" />
+    <circle cx="160" cy="40" r="5" />
+  </g>
+  <!-- Humidity Indicators -->
+  <g fill="#2196F3">
+    <circle cx="40" cy="160" r="5" />
+    <circle cx="160" cy="160" r="5" />
+  </g>
+  <!-- Connection Lines -->
+  <g stroke="#B2EBF2" stroke-width="2" stroke-dasharray="4">
+    <line x1="45" y1="45" x2="60" y2="60" />
+    <line x1="155" y1="45" x2="140" y2="60" />
+    <line x1="45" y1="155" x2="60" y2="140" />
+    <line x1="155" y1="155" x2="140" y2="140" />
+  </g>
+</svg>

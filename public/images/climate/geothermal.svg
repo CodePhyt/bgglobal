@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <style>
+    .primary { fill: #2E7D32; }
+    .secondary { fill: #1976D2; }
+    .accent { fill: #424242; }
+  </style>
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="#f5f5f5"/>
+  <!-- Ground Layers -->
+  <path d="M40 140 L160 140" stroke="#795548" stroke-width="4"/>
+  <path d="M40 155 L160 155" stroke="#795548" stroke-width="4"/>
+  <path d="M40 170 L160 170" stroke="#795548" stroke-width="4"/>
+  <!-- Heat Exchange Pipes -->
+  <path d="M70 40 L70 160 Q85 170 100 160 L100 40" fill="none" stroke="#1976D2" stroke-width="4"/>
+  <path d="M120 40 L120 160 Q135 170 150 160 L150 40" fill="none" stroke="#1976D2" stroke-width="4"/>
+  <!-- Heat Indicators -->
+  <path d="M80 60 Q90 50 100 60" class="primary" fill="none" stroke-width="3" stroke-linecap="round"/>
+  <path d="M130 80 Q140 70 150 80" class="primary" fill="none" stroke-width="3" stroke-linecap="round"/>
+  <path d="M80 100 Q90 90 100 100" class="primary" fill="none" stroke-width="3" stroke-linecap="round"/>
+</svg>

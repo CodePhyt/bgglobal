@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e9"/>
+      <stop offset="100%" style="stop-color:#b2dfdb"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-gradient)"/>
+  <!-- World Map Outline -->
+  <path d="M200 250 C300 200 500 200 600 250 C700 300 600 400 500 450 C400 500 300 450 200 400 C100 350 100 300 200 250" fill="none" stroke="#004d40" stroke-width="2"/>
+  <!-- Modern Greenhouse Icons -->
+  <rect x="300" y="300" width="80" height="60" fill="#ffffff" opacity="0.9"/>
+  <path d="M300 300 L340 270 L380 300" fill="#ffffff" stroke="#004d40"/>
+  <rect x="450" y="250" width="80" height="60" fill="#ffffff" opacity="0.9"/>
+  <path d="M450 250 L490 220 L530 250" fill="#ffffff" stroke="#004d40"/>
+  <!-- Connection Lines -->
+  <path d="M380 330 L450 280" stroke="#00897b" stroke-width="2" stroke-dasharray="5,5"/>
+  <!-- Technology Symbols -->
+  <circle cx="340" cy="330" r="10" fill="#00897b"/>
+  <circle cx="490" cy="280" r="10" fill="#00897b"/>
+</svg>

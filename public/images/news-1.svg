@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196F3"/>
+      <stop offset="100%" style="stop-color:#1565C0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#E3F2FD"/>
+  <!-- Greenhouse Structure -->
+  <path d="M50,200 L200,100 L350,200 L350,250 L50,250 Z" fill="#BBDEFB" stroke="#1565C0" stroke-width="2"/>
+  <path d="M100,250 L100,200 L150,200 L150,250" fill="none" stroke="#1565C0" stroke-width="2"/>
+  <!-- Technology Elements -->
+  <g transform="translate(120,150)">
+    <circle cx="0" cy="0" r="20" fill="url(#techGradient)"/>
+    <path d="M-15,-15 L15,15 M-15,15 L15,-15" stroke="white" stroke-width="3"/>
+  </g>
+  <!-- Plants -->
+  <g transform="translate(200,180)">
+    <path d="M0,0 C10,-20 20,-20 30,0" stroke="#4CAF50" stroke-width="3" fill="none"/>
+    <path d="M-5,0 C5,-15 15,-15 25,0" stroke="#4CAF50" stroke-width="3" fill="none"/>
+    <rect x="-2" y="0" width="4" height="20" fill="#795548"/>
+  </g>
+  <!-- Digital Elements -->
+  <g transform="translate(280,160)">
+    <rect x="-15" y="-15" width="30" height="30" rx="5" fill="#1565C0"/>
+    <circle cx="0" cy="0" r="8" fill="white"/>
+    <path d="M-8,-8 L8,8 M-8,8 L8,-8" stroke="#1565C0" stroke-width="2"/>
+  </g>
+</svg>

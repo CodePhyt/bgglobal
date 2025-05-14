@@ -1,0 +1,13 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .logo-text { font-family: Arial, sans-serif; font-weight: bold; }
+    .company-name { fill: #333333; }
+    .tagline { fill: #666666; font-size: 14px; }
+  </style>
+  
+  <!-- Company Name -->
+  <text x="10" y="35" class="logo-text company-name" font-size="28">BG GLOBAL</text>
+  
+  <!-- Tagline -->
+  <text x="10" y="50" class="logo-text tagline">Innovative Solutions</text>
+</svg>

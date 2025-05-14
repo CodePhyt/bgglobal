@@ -1,0 +1,41 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA726;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Screen Frame -->
+  <rect x="40" y="40" width="120" height="120" rx="5" fill="none" stroke="url(#grad1)" stroke-width="4" />
+  <!-- Screen Material -->
+  <g fill="none" stroke="#FFE0B2" stroke-width="1">
+    <path d="M40,60 L160,60" />
+    <path d="M40,80 L160,80" />
+    <path d="M40,100 L160,100" />
+    <path d="M40,120 L160,120" />
+    <path d="M40,140 L160,140" />
+    <path d="M60,40 L60,160" />
+    <path d="M80,40 L80,160" />
+    <path d="M100,40 L100,160" />
+    <path d="M120,40 L120,160" />
+    <path d="M140,40 L140,160" />
+  </g>
+  <!-- Roller Mechanism -->
+  <rect x="30" y="30" width="140" height="10" rx="5" fill="#F57C00" />
+  <!-- Control Unit -->
+  <rect x="170" y="80" width="20" height="40" rx="5" fill="#F57C00" />
+  <circle cx="180" cy="90" r="3" fill="#FFE0B2" />
+  <rect x="175" y="100" width="10" height="2" fill="#FFE0B2" />
+  <!-- Installation Points -->
+  <g fill="#F57C00">
+    <circle cx="40" cy="40" r="4" />
+    <circle cx="160" cy="40" r="4" />
+    <circle cx="40" cy="160" r="4" />
+    <circle cx="160" cy="160" r="4" />
+  </g>
+  <!-- Movement Arrows -->
+  <g fill="none" stroke="#FFB74D" stroke-width="2">
+    <path d="M20,80 L30,90 L20,100" />
+    <path d="M20,120 L30,130 L20,140" />
+  </g>
+</svg>

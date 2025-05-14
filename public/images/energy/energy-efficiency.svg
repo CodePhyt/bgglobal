@@ -1,0 +1,33 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00BCD4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#26C6DA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Circular Gauge -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#E0F7FA" stroke-width="10" />
+  <path d="M100,100 L100,40 A60,60 0 0,1 152,152 Z" fill="url(#grad1)" />
+  <!-- Efficiency Markers -->
+  <g stroke="#B2EBF2" stroke-width="2">
+    <line x1="100" y1="40" x2="100" y2="50" />
+    <line x1="152" y1="48" x2="147" y2="57" />
+    <line x1="160" y1="100" x2="150" y2="100" />
+    <line x1="152" y1="152" x2="143" y2="143" />
+    <line x1="100" y1="160" x2="100" y2="150" />
+    <line x1="48" y1="152" x2="57" y2="143" />
+    <line x1="40" y1="100" x2="50" y2="100" />
+    <line x1="48" y1="48" x2="57" y2="57" />
+  </g>
+  <!-- Center Point -->
+  <circle cx="100" cy="100" r="5" fill="#00BCD4" />
+  <!-- Efficiency Level Indicator -->
+  <path d="M95,85 L105,85 L105,40 L95,40 Z" fill="#26C6DA" />
+  <!-- Energy Icons -->
+  <g fill="#B2EBF2">
+    <circle cx="70" cy="70" r="10" />
+    <circle cx="130" cy="70" r="10" />
+    <circle cx="70" cy="130" r="10" />
+    <circle cx="130" cy="130" r="10" />
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <style>
+    .primary { fill: #2E7D32; }
+    .secondary { fill: #1976D2; }
+    .accent { fill: #424242; }
+  </style>
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="#f5f5f5"/>
+  <!-- Greenhouse Structure -->
+  <path d="M40 120 L100 70 L160 120" fill="none" stroke="#424242" stroke-width="4"/>
+  <path d="M40 120 L40 150 L160 150 L160 120" fill="none" stroke="#424242" stroke-width="4"/>
+  <!-- Ventilation System -->
+  <rect x="60" y="80" width="20" height="10" class="secondary" transform="rotate(-30 70 85)"/>
+  <rect x="120" y="80" width="20" height="10" class="secondary" transform="rotate(30 130 85)"/>
+  <!-- Air Flow Indicators -->
+  <path d="M80 100 Q100 90 120 100" fill="none" stroke="#2E7D32" stroke-width="2" stroke-dasharray="4,4"/>
+  <path d="M120 110 Q100 120 80 110" fill="none" stroke="#2E7D32" stroke-width="2" stroke-dasharray="4,4"/>
+  <!-- Plants -->
+  <path d="M70 150 Q75 130 80 150" class="primary" stroke-width="2" fill="none"/>
+  <path d="M90 150 Q95 130 100 150" class="primary" stroke-width="2" fill="none"/>
+  <path d="M110 150 Q115 130 120 150" class="primary" stroke-width="2" fill="none"/>
+</svg>
